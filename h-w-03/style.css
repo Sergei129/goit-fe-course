@@ -24,17 +24,19 @@ header {
   list-style: none;
   text-transform: uppercase;
   font-size: 0;
+  padding: 0;
 }
 
 .site-navigation li { 
-  display: inline-block;  
+  display: inline-block;
   font-size: 14px;
 }
 
 .site-navigation a {
+  display: block;
   text-decoration: none;
   color: #626262;
-  padding: 0 50px;
+  padding-right: 60px;
 }
 
 .site-navigation a:hover,
@@ -44,6 +46,7 @@ header {
 
 .features {
   padding-bottom: 50px;
+  font-size: 0;
 }
 
 .features-list-item {
@@ -58,14 +61,6 @@ header {
   margin-right: 0;
  }
 
-.features-list-item:nth-child(2n) {
-  margin-right: 0;
-}
-
-.features-list-item:nth-last-child(-n + 2) {
-  margin-bottom: 0;
-}
-
 .photo {
   display: block;
   max-width: 100%;
@@ -74,6 +69,7 @@ header {
 }
 
 .content {
+  margin: 0;
   margin-bottom: 20px;
   font-family: "Ubuntu light", sans-serif;
   font-size: 14px;
@@ -87,10 +83,12 @@ header {
 
 .content3 {
  margin: 0;
+ font-size: 14px;
 }
 
 .button {
-  margin-left: 400px;
+  display: block;
+  margin: 0 auto;
   border: 1px solid black;
   background-color: transparent;
   cursor: pointer;
@@ -100,5 +98,7 @@ header {
   padding-left: 35px;
   padding-right: 42px;
 }  
-  
-  
+
+button:hover { 
+  color: #000;
+}
