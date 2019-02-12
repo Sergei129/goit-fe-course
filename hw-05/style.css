@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*, 
+*::before, 
+*::after {
   box-sizing: inherit;
 }
 
@@ -13,14 +15,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px; 
 }
 
 .clearfix::after {
@@ -40,7 +34,7 @@ img {
   padding: 0;
 }
 
-.container .site-name {
+.site-name {
   display: inline-block;
   text-transform: uppercase;   
   text-decoration: none;
@@ -50,7 +44,7 @@ img {
   padding: 0;
 }
 
-.container .site-name::first-letter{
+.site-name::first-letter{
   color: #1abc9c;
   font-weight: 900;
 }
@@ -78,7 +72,6 @@ img {
   padding-right: 0;
 } 
 
-
 .menu-list a:hover {
   color: #1abc9c;
 }
@@ -87,7 +80,7 @@ img {
   float: left;
 }
 
-.headline {  
+.line {  
   display: block;
   padding: 0;
   margin: 0 auto;
@@ -97,7 +90,7 @@ img {
   text-align: center;
 }
 
-.headline::after {
+.line::after {
   display: block;
   content: ""; 
   margin: 0 auto;  
@@ -133,7 +126,7 @@ img {
 
 .slider-content {
   position: absolute;
-  width: 1200px;
+  width: 1100px;
   height: 136px;
   left: 50%;
   top: 50%;
@@ -174,17 +167,17 @@ img {
 .slider-content h2 {
   font-size: 60px;
   font-weight: 900;
-  line-height: 82px;
+  line-height: 88px;
   margin: 0;
-  padding: 0 0 0 230px;
+  padding-left: 190px;
 }
 
 .slider-content p {
   font-size: 24px;
   font-weight: light;
   line-height: 54px;
-  margin: 0 ;
-  padding: 0 0 0 230px;
+  margin: 0;
+  padding-left: 190px;
 }
 
 .product-list {
@@ -212,7 +205,6 @@ img {
 }
 
 .product-list-item p {
-  /* float: left; */
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -310,7 +302,6 @@ img {
   left: 60px;
   top: 50%;
   transform: translateY(-50%); 
-
   display: inline-block;
   box-sizing: border-box;
   color: #fff; 
@@ -321,34 +312,19 @@ img {
 }
 
 .icons .icon-cart::before {
-  display: inline-block;
+  display: inline-flex;
   position: absolute;
   left: 1px;
   top: 1px;
-  content: "";
-  width: 48px;
-  height: 48px; 
-  background-image: url(../img/icons/icon-cart.png);
-  background-repeat: no-repeat;
-  background-position: center; 
+  content: ""; 
 }
 
-.icon-like {
-  background-image: url(../img/icons/icon-like.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-compare {
-  background-image: url(../img/icons/icon-compare.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-hold {
-  background-image: url(../img/icons/icon-hold.png);
-  background-repeat: no-repeat;
-  background-position: center;
+.icons svg {
+  width: 25px;
+  height: 25px; 
+  margin-top: 12px;
+  margin-left: 12px;
+  fill: #ffffff; 
 }
 
 .overlay-icons-block li {
