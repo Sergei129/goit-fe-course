@@ -54,8 +54,8 @@ img {
     float: left;
 }
 
-.site-navigation li:not(:last-child) {
-    margin-right: 0px;
+.site-navigation li:last-child {
+    margin-right: 0;
 }
 
 .nav-list_item {
@@ -194,7 +194,6 @@ img {
     float: left;
     width: 350px;
     margin-right: 30px;
-    padding-right: 30px;
 }
 
 .team-list-item:last-child {
