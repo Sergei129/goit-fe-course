@@ -196,17 +196,12 @@ img {
 .product-list-item {
     position: relative;
     width: 255px;
-    height: 322px;
     float: left;
     margin-right: 30px;
 }
 
 .product-list-item:nth-child(4n) {
     margin-right: 0;
-}
-
-.product-list-item:nth-last-child( -n+4) {
-    margin-bottom: 100px;
 }
 
 .product-list-item p {
