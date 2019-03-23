@@ -13,6 +13,7 @@ header, .out_wrapper, .services{
 }
 
 .logo{
+    display: block;
     font-size: 24px;
     font-family: 'Wisdom Script';
     text-decoration: none;
@@ -20,8 +21,8 @@ header, .out_wrapper, .services{
 }
 
 header{
-    height: 65px;
-    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 120px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -34,6 +35,7 @@ header{
 }
 
 .navigation a{
+displey: block;
     font-size: 14px;
     font-weight: 700; 
     font-family: 'Montserat', sans-serif;
@@ -76,9 +78,9 @@ h3{
 }
 
 .wrapper_serv{
+    display: block;
     width: 260px;
     height: 128px;
-    display: block;
 }
 
 .icon{
@@ -118,7 +120,7 @@ h3{
     text-align: center;
     background-image: url(./img/1.png);
     background-repeat: no-repeat;
-    background-position: right 0px bottom 10px;
+    background-position: right 0 bottom 10px;
     margin-top: 100px;
 }
 
@@ -146,11 +148,10 @@ h3{
 }
 
 .boxform{
-    height: 310px;
     width: 940px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px auto;
+    margin: 0 auto;
     flex-direction: column;    
 }
 
@@ -186,7 +187,7 @@ h3{
     height: 210px;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px auto;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: space-between;
 }
