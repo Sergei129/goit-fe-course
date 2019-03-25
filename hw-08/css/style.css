@@ -11,7 +11,7 @@ html {
 body {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Roboto', sans-serif;
-    position: relative;
+   
     margin: 0;
     padding: 0;
 }
@@ -27,17 +27,17 @@ body {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-    height: 190px;
     margin: 0 auto;
     margin-bottom: 30px;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
+    flex-wrap: wrap;
+	width: 220px;
 }
 
 .site-logo {
     display: block;
-    margin: 0 auto;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
@@ -47,9 +47,10 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 20px;
     min-width: 152px;
+    text-align: center;
     list-style: none;
+	float: left;
 }
 
 .link-in,
@@ -57,14 +58,16 @@ body {
     display: block;
     font-size: 14px;
     font-weight: bold;
-    line-height: 36px;
+    line-height: 17px;
     color: #fff;
+    border: 2px solid transparent;
+    transition: border .2s ease-in-out;
 }
 
 .menu li:hover {
     border-radius: 20px;
     border: solid 2px #ffffff;
-    width: 50px;
+    width: 70px;
 }
 
 a {

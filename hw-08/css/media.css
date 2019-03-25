@@ -92,7 +92,7 @@
 }
 
 
-@media (min-width: 1440px) {
+@media (min-width: 960px) {
   .container {
     width: 940px;
   }
